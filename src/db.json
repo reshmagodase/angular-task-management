@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "username": "111",
+      "password": "111",
+      "email": "Shanna@melissa.tv",
+      "id": 1
+    },
+    {
+      "username": "123",
+      "email": "Shanna@melissa.tv",
+      "id": 2
+    },
+    {
+      "username": "111",
+      "email": "1qweq@dfgd.ggg",
+      "id": 4
+    },
+    {
+      "username": "12345",
+      "email": "retrtre@dddd",
+      "id": 5
+    },
+    {
+      "username": "reshmagodase34@gmail.com",
+      "email": "reshmagodase34@gmail.com",
+      "id": 6
+    },
+    {
+      "username": "123",
+      "email": "reshmagodase34@gmail.com",
+      "phone": "+91 74987-34266",
+      "profile": "C:\\fakepath\\jasmin.jpg",
+      "id": 7
+    },
+    {
+      "username": "123",
+      "email": "reshmagodase34@gmail.com",
+      "phone": "1-770-736-8031 x56442",
+      "profile": "C:\\fakepath\\jai.jpg",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "username": "123",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "id": 1
+    }
+  ]
+}

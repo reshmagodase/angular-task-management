@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5" style="margin: auto; margin-top: 10%;">
+        <div class="card">
+              <div class="text-center">
+                  <h3>Login Page</h3>
+                  <h6>Please Enter Username and Password</h6>
+              </div>
+              <form [formGroup]="loginform">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Username</label>
+                  <input type="email" formControlName="username" class="form-control" id="username" aria-describedby="emailHelp"
+                  [ngClass]="{ 'is-invalid': submitted && f.username.errors }">
+                  <div  *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                    <div class="text-danger" *ngIf="f.username.errors?.required">Username is Requred</div>
+                </div>
+                </div>
+                <div class="mb-3">
+                  <label>Password</label>
+                  <input type="password" formControlName="password" class="form-control" id="password"
+                  [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+                  <div  *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                    <div class="text-danger" *ngIf="f.password.errors?.required">Username is Requred</div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" (click)="onSubmit()">Login</button>
+              </form>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
